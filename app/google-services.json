@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "896288608066",
+    "project_id": "vgram-10056",
+    "storage_bucket": "vgram-10056.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896288608066:android:07e7ccc05d8f52a31742db",
+        "android_client_info": {
+          "package_name": "quiz.vishcustom.vgram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR17RWixGsIeGtVdsESZaZLbRcxd61HMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

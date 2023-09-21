@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/home"
+    android:background="@color/white"
+    >
+    <fragment
+        android:id="@+id/home"
+        android:name="quiz.vishcustom.vgram.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/search"
+        android:name="quiz.vishcustom.vgram.fragment.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <dialog
+        android:id="@+id/add"
+        android:label="fragment_add"
+        android:name="quiz.vishcustom.vgram.fragment.ModelBottomSheet"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/reel"
+        android:name="quiz.vishcustom.vgram.fragment.ReelFragment"
+        android:label="fragment_reel"
+        tools:layout="@layout/fragment_reel" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="quiz.vishcustom.vgram.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
