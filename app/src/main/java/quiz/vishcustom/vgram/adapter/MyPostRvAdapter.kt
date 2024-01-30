@@ -8,7 +8,8 @@ import com.squareup.picasso.Picasso
 import quiz.vishcustom.vgram.Models.Post
 import quiz.vishcustom.vgram.databinding.MyPostRvDesignBinding
 
-class MyPostRvAdapter(var context: Context, var postList: ArrayList<Post>) : RecyclerView.Adapter<MyPostRvAdapter.ViewHolder>(){
+class
+MyPostRvAdapter(var context: Context, var postList: ArrayList<Post>) : RecyclerView.Adapter<MyPostRvAdapter.ViewHolder>(){
 
     inner class ViewHolder(var binding : MyPostRvDesignBinding) :
             RecyclerView.ViewHolder(binding.root)

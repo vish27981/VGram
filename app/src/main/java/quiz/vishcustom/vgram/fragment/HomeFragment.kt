@@ -27,9 +27,9 @@ class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
     private var postList = ArrayList<Post>()
-        private lateinit var adapter: PostAdapter
+    private lateinit var adapter: PostAdapter
     private var followList = ArrayList<User>()
-        private lateinit var followAdapter: FollowAdapter
+    private lateinit var followAdapter: FollowAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
